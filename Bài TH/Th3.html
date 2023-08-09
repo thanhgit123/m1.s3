@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form thông tin</title>
+</head>
+<body>
+    <h1>Tạo form mô tả cảm xúc của bạn về<br>tấm ảnh tâm đắc nhất của mình</h1>
+    <form action="@" method="post">
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" required><br>
+
+
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="Subject">Chủ đề:</label>
+        <input type="text" id="Subject" name="subject" required><br>
+
+        <label for="image">Img:</label>
+        <input type="file" id="image" name="image" required><br>
+
+        <label for="messager">Nội dung</label>
+        <textarea id="messager" name="messager" rows="5" required></textarea><br>
+        <input type="submit" value="Gửi">
+   
+</body>
+</html>
